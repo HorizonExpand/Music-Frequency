@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hrumer.music_frequency.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "music_frequency.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MusicManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
