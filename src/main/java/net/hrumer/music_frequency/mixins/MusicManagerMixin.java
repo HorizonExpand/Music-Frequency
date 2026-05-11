@@ -2,7 +2,6 @@ package net.hrumer.music_frequency.mixins;
 
 import net.hrumer.music_frequency.Config;
 import net.minecraft.client.sounds.MusicManager;
-
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;

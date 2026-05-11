@@ -2,8 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.hrumer.music_frequency.mixins",
-  "compatibilityLevel": "JAVA_8",
-  "refmap": "music_frequency.refmap.json",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
   "client": [
