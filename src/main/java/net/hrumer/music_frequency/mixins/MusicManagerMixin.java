@@ -44,9 +44,9 @@ public class MusicManagerMixin {
         String currentMusicName = getCurrentMusicTranslationKey();
 
         if (currentMusicName != null) {
-            LogUtils.getLogger().info("Current musN: {}", currentMusicName);
+            LogUtils.getLogger().info("Current Music Name: {}", currentMusicName);
             Component title = Component.translatable("gui.now_playing")
-                    .withStyle(style -> style.withBold(true).withColor(0x55FF55));
+                    .withStyle(style -> style.withBold(true).withColor(0xFFAA00));
 
             Component subtitle = Component.translatable(currentMusicName.replace("/", "."))
                     .withStyle(style -> style.withItalic(true));
